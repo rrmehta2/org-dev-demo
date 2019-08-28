@@ -3,6 +3,7 @@
     <fullName>Start_time__c</fullName>
     <externalId>false</externalId>
     <label>Start time</label>
+    <required>true</required>
     <trackTrending>false</trackTrending>
     <type>DateTime</type>
 </CustomField>
