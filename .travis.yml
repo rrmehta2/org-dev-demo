@@ -15,6 +15,7 @@ before_install:
 before_script:
 - export DEPLOYDIR=force-app
 - export TESTLEVEL=RunAllTestsInOrg
+- sfdx update
 - sfdx --version
 - sfdx plugins --core
 script:
